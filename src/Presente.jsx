@@ -39,7 +39,7 @@ const PresentBoxGame = () => {
       .map((box) => box.gift)
       .join(", ")}! 💖`;
 
-    const url = `https://wa.me/5222998672800?text=${encodeURIComponent(message)}`;
+    const url = `https://wa.me/522992576952?text=${encodeURIComponent(message)}`;
     window.open(url, "_blank");
   };
 
