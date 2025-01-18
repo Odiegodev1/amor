@@ -6,7 +6,7 @@ import Amor from './assets/love3.svg'
 import Lovee from './assets/love4.svg'
 import BaLove4u from './assets/love6.svg'
 
-const targetDate = new Date("2025-05-11T00:00:00");
+const targetDate = new Date("2025-01-11T00:00:00");
 function Contagem() {
 
 const navigate = useNavigate();
