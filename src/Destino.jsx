@@ -19,7 +19,8 @@ function Destino() {
         <video
           src={VidedoM}
           onEnded={handleVideoEnd} // Chamado quando o vídeo termina
-          controls
+          autoPlay
+          autoSave='true'
           className="rounded-xl border-4 border-white w-full h-auto" // Ajuste para evitar tela cheia
         />
       </div>
